@@ -1,16 +1,6 @@
 using UnityEngine;
 
-public class Score : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+public static class Score{
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public static int score = 0;
 }

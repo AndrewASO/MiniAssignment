@@ -2,17 +2,17 @@ using UnityEngine;
 
 public class FloatUp : MonoBehaviour {
 
-    [SerializedField] 
+    private bool toFloat = false;
+    [SerializeField] float floatUpSpd = 1.0f;
 
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start() {
-        
+    void Update(){
+        if(toFloat){
+            BeginFloatingUp();
+        }
     }
 
-    // Update is called once per frame
-    void Update() {
-        
+    void BeginFloatingUp(){
+        transform.position += new Vector3(0, floatUpSpd * Time.deltaTime, 0);
     }
 }
