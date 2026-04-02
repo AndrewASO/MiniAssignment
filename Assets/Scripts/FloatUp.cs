@@ -12,6 +12,10 @@ public class FloatUp : MonoBehaviour {
         }
     }
 
+    public void ActiveFloat(){
+        toFloat = true;
+    }
+
     void BeginFloatingUp(){
         transform.position += new Vector3(0, floatUpSpd * Time.deltaTime, 0);
     }
