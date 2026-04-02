@@ -3508,6 +3508,9 @@ PrefabInstance:
       addedObject: {fileID: 619007658}
     - targetCorrespondingSourceObject: {fileID: 2346095561133664942, guid: 3763f3535841a4842bfe341f2eba7b74, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 619007659}
+    - targetCorrespondingSourceObject: {fileID: 2346095561133664942, guid: 3763f3535841a4842bfe341f2eba7b74, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 619007657}
   m_SourcePrefab: {fileID: 100100000, guid: 3763f3535841a4842bfe341f2eba7b74, type: 3}
 --- !u!1 &619007652 stripped
@@ -3653,6 +3656,18 @@ MonoBehaviour:
   _whenSelectingInteractorViewRemoved:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &619007659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619007652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c15efa83f62c34aa69c9d8b16676b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &624699870
 GameObject:
   m_ObjectHideFlags: 0
