@@ -2559,6 +2559,11 @@ Transform:
   - {fileID: 273259345}
   m_Father: {fileID: 1138039443}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &462446231 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7176344439015315549, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
+  m_PrefabInstance: {fileID: 883565755}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &464099433
 GameObject:
   m_ObjectHideFlags: 0
@@ -3644,6 +3649,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: FloatUp, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _whenInteractorViewAdded:
     m_PersistentCalls:
       m_Calls: []
@@ -3668,6 +3685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c15efa83f62c34aa69c9d8b16676b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 462446231}
 --- !u!1 &624699870
 GameObject:
   m_ObjectHideFlags: 0
