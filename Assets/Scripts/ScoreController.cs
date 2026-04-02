@@ -19,11 +19,11 @@ public class ScoreController : MonoBehaviour {
         UpdateScoreText();
     }
 
-    void IncrementScore(){
+    public void IncrementScore(){
         Score.score++;
     }
 
-    void DecrementScore(){
+    public void DecrementScore(){
         Score.score--;
     }
 

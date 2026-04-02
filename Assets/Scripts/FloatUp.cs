@@ -3,7 +3,7 @@ using UnityEngine;
 public class FloatUp : MonoBehaviour {
 
     private bool toFloat = false;
-    [SerializeField] float floatUpSpd = 1.0f;
+    [SerializeField] private float floatUpSpd = 1.0f;
 
 
     void Update(){
